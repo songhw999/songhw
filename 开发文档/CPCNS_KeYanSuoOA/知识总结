@@ -1,0 +1,22 @@
+String.Contains 方法   是否包含
+
+清楚map   map.clear
+
+jQuery清楚前后空格 var $title = $.trim($("#title").val())
+
+//清空
+function clear(){
+  $('#ff').form('clear')
+}
+
+一个方法多次调用，考虑前后关系，避免使用之前的方法失效
+
+Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CPCNS_KeYanSuoOA]]
+
+这个错解决方法是把项目从tomcat里的webapps和work里删除还有就是工作空间workspaces
+ 清空form
+ function clear(){
+      $('#ff').form('clear')
+ }
+ 传回前台的时间格式为一下格式
+ request.setAttribute("dBefore",new SimpleDateFormat("yyyy-MM-dd").format(dBefore));
