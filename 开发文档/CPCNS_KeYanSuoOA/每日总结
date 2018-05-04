@@ -1,0 +1,2 @@
+2018/5/4
+修改DA前台乱码，后台从数据库里查询出来是UTF-8传到前台确实乱码，而前台已经设置UTF-8，最后解决问题的方法是@RequestMapping 添加了一个参数produces = {"application/text;charset=UTF-8"}
