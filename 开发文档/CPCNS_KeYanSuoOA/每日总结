@@ -1,2 +1,5 @@
 2018/5/4
 修改DA前台乱码，后台从数据库里查询出来是UTF-8传到前台确实乱码，而前台已经设置UTF-8，最后解决问题的方法是@RequestMapping 添加了一个参数produces = {"application/text;charset=UTF-8"}
+2018/5/7
+解决了卡了好几天的领导销假审批，原因节点任务监听和流条件未配置对象的xiaojiajieguo
+实时考勤，获取当前时间属于第几周。并且得到本周的开始时间和结束时间Calendar cal = Calendar.getInstance(); 
