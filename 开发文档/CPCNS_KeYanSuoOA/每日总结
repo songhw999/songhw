@@ -2,4 +2,8 @@
 修改DA前台乱码，后台从数据库里查询出来是UTF-8传到前台确实乱码，而前台已经设置UTF-8，最后解决问题的方法是@RequestMapping 添加了一个参数produces = {"application/text;charset=UTF-8"}
 2018/5/7
 解决了卡了好几天的领导销假审批，原因节点任务监听和流条件未配置对象的xiaojiajieguo
-实时考勤，获取当前时间属于第几周。并且得到本周的开始时间和结束时间Calendar cal = Calendar.getInstance(); 
+实时考勤，获取当前时间属于第几周。并且得到本周的开始时间和结束时间Calendar cal = Calendar.getInstance();
+2018/5/8
+搞流程管理的实施考勤，弄了一上午，除了，汪伟在数据库QingJiaTongJi里添加tongJiNianZhou以外，上午没有什么进度。下午帮助汪伟布置OA环境maven出错，菲姐帮忙解决，最后我也没看懂菲姐怎么弄的
+就把错误改没了（貌似是maven下的setting文件错了，没有配置那个 <url>http://192.168.1.67:8081/nexus/content/groups/allOfMaven/</url>），然后我开始帮他调配置，除了用户下的两个配置，
+还有tomcat下的配置catalina.properties。最后完成部署。
