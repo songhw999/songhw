@@ -7,3 +7,5 @@
 搞流程管理的实施考勤，弄了一上午，除了，汪伟在数据库QingJiaTongJi里添加tongJiNianZhou以外，上午没有什么进度。下午帮助汪伟布置OA环境maven出错，菲姐帮忙解决，最后我也没看懂菲姐怎么弄的
 就把错误改没了（貌似是maven下的setting文件错了，没有配置那个 <url>http://192.168.1.67:8081/nexus/content/groups/allOfMaven/</url>），然后我开始帮他调配置，除了用户下的两个配置，
 还有tomcat下的配置catalina.properties。最后完成部署。
+2018/5/9
+Calendar 日历   在java中 星期日显示的是1  星期一显示的是2
