@@ -17,3 +17,6 @@ Calendar 日历   在java中 星期日显示的是1  星期一显示的是2
 存在问题:请假时间跨周问题
 2018/5/11
 项目流程管理   登上徐亮进行生成考勤统计 saveCount方法往数据库里添加考勤统计,,修改之前的统计年月改为tongjiriqi,拼接两个string  xxxxweek(week为周)
+2018/5/15
+leave.setStartTime(new SimpleDateFormat("yyyy-MM-dd").parse(temp[1].toString()));
+String.valueOf(b)  各种类型转为string类型
