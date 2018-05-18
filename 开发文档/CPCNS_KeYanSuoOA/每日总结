@@ -20,3 +20,7 @@ Calendar 日历   在java中 星期日显示的是1  星期一显示的是2
 2018/5/15
 leave.setStartTime(new SimpleDateFormat("yyyy-MM-dd").parse(temp[1].toString()));
 String.valueOf(b)  各种类型转为string类型
+2018/5/16~17
+这两天主要是完成日期的加减和天数的计算,还写了一个工具类,去除节假日,然而节假日是统计好的,我只需要把这些日期从时间了去除
+2018/5/18
+防止用户无线提交  生成考勤统计,,还做了把徐亮设为主任,防止主任请假走普通员工的流程
